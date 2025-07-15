@@ -19,9 +19,24 @@ This project showcases a fully automated static website using CI/CD pipelines vi
 
 ## 🌐 Live Site
 
-Hosted on AWS S3 with public access:  
-`http://auto-static-s3-site.s3-website-ap-south-1.amazonaws.com`  
-*(URL will be active once the bucket is created and deployment is successful)*
+🌟 Local Development Version  
+✅ Hosted on internal machine using VS Code  
+📂 Opened directly as `http://127.0.0.1:5500/index.html`  
+🛠️ Used for UI testing and debugging
+
+
+🌐 GitHub Pages Deployment  
+🔗 [Live Version](https://sandhya-1301.github.io/Auto-Static-S3-Site/)  
+⚙️ Auto-deployed via `static.yml` GitHub Actions workflow  
+🧾 Linting enforced using `lint-html.yml`
+
+☁️ AWS S3 Cloud Hosting  
+🪣 Bucket Name: `auto-static-s3-site`  
+🧭 Public URL: [S3 Endpoint](https://your-bucket-url.s3-website-region.amazonaws.com)  
+🔄 Sync enabled using GitHub Actions (or manual upload via AWS Console)  
+🔐 Permissions set via bucket policy for public access
+
+
 
 ## 📚 Learning Outcomes
 
@@ -41,18 +56,7 @@ This visual illustrates the automation flow from GitHub commit to S3 deployment:
 ![Deployment Flow](images/Automatic-Static-Web.png)
 
 
-**Cloud Portfolio Website**
 
-A responsive static website deployed via GitHub Pages, featuring real-time clock functionality, interactive elements, and a professional layout — built as part of my MCA project. The site includes GitHub Actions workflows for HTML linting (`lint-html.yml`) and automated CI/CD deployment (`static.yml`). Strict `.htmlhintrc` validation ensures code quality and semantic structure.
-
-- Tech Stack: HTML, CSS, JavaScript, GitHub Actions
-- CI/CD: Automated linting and deployment pipelines
-- Hosting: GitHub Pages (optionally expandable to AWS S3)
-- Highlights: Workflow automation, visual architecture diagram, quality enforcement
-
-🔗 **Live Site**: [Visit Here](https://sandhya-1301.github.io/Auto-Static-S3-Site/)
-
-✔️ **Linting Status**: Passed via GitHub Actions using HTMLHint
 
 ## 👩‍💻 About Me
 
