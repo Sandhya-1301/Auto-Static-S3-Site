@@ -3,6 +3,10 @@
   "attr-value-double-quotes": true,
   "doctype-first": true,
   "id-unique": true,
-  "alt-require": true,
-  "tag-pair": true
+  "img-alt-require": true,
+  "tag-pair": true,
+  "spec-char-escape": true,
+  "attr-no-duplication": true,
+  "head-script-disabled": true,
+  "title-require": true
 }
